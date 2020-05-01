@@ -20,7 +20,6 @@ posts = [
 
 def home(request):
     context = {
-        #variabel 'posts' that is called by home.html
         'posts': posts
     }
     return render(request, 'blog/home.html', context)
